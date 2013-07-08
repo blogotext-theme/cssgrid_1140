@@ -1,0 +1,26 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { direction: rtl; }
+blockquote { border-right: 1px solid #ddd; border-left-width:0;}
+cite, blockquote cite {text-align:left;}
+code, pre { direction:ltr;padding:0 4px 2px;}
+code { padding:4px 6px 2px;}
+pre { padding:10px;}
+/* #Lists and Links */
+ul ul, ol ol {margin:10px 20px 0 0;}
+/* #Table */
+.table th, .table td {text-align:right;}
+.table.bordered {border-width:1px;}
+label input[type="radio"], label input[type="checkbox"] , label span {unicode-bidi:embed;}
+/* Grids */
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {margin-left: 3.8%;  margin-right:0; float: right;min-height: 1px;}
+.row .twelvecol {width: 100%;float: right;}
+.last {margin-left:0;  float: left;}
+/* add for blogotext 2 by kris */
+#top_text h2, .permalien, .com-reply, #form-commentaire .infos {text-align: left;}
+th, td {text-align:right;}
+.news figure { float: left; margin: 5px 10px 5px 0;}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}

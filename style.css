@@ -159,7 +159,7 @@ a#top-link {background: url(images/up.png) no-repeat 0 0; height:48px; width:48p
 .news h2, .lien h2, .comment h2 {font-size:1.6em;text-shadow: 1px 1px 2px #aaa;}
 .news h3, .lien h3, .comment h3 {font-size:1.3em;text-shadow: 1px 1px 2px #aaa;}
 .chapo {}
-.permalien {text-align: right;}
+.permalien, .tagss {text-align: right;}
 
 header.titre {}
 header.titre a {text-decoration: none;}
